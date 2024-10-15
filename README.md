@@ -7,9 +7,6 @@ A web-based application that allows users to create parties, send invitations vi
 
 - User registration and login.
 - Create public or private parties.
-
-![Alt text](createParty.png)
-
 - Send email invitations to guests.
 - View all created parties on a dashboard.
 
