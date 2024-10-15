@@ -97,28 +97,6 @@ The frontend should now be running on `http://localhost:3000`.
 
 - **POST** `/api/invitations/{partyId}` - Invite a guest to a party
 
-## Running with Docker (Optional)
-
-1. Build the Docker images:
-    ```bash
-    docker-compose build
-    ```
-
-2. Start the services:
-    ```bash
-    docker-compose up
-    ```
-
-## Contributing
-
-To contribute to this project:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes and commit them (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
-
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
