@@ -1,6 +1,6 @@
 # Party Invitation System
 
-A web-based application that allows users to create parties, send invitations via email, and manage RSVPs. This project is built using Spring Boot for the backend and React.js for the frontend.
+A web-based application that allows users to create parties, send invitations via email, and manage RSVPs. This project is built using Spring Boot for the backend and React.js for the (very simple) frontend.
 
 ## Features
 
