@@ -36,22 +36,17 @@ Before you begin, ensure you have met the following requirements:
     ```bash
     git clone https://github.com/yourusername/party-invitation-system.git
     ```
-
-2. Navigate to the backend directory:
-    ```bash
-    cd backend
-    ```
-
-3. Configure PostgreSQL:
+    
+2. Configure PostgreSQL:
    - Set up a PostgreSQL database.
    - Update your `application.properties` file with your database credentials.
 
-4. Build the project:
+3. Build the project:
     ```bash
     ./mvnw clean install
     ```
 
-5. Run the backend server:
+4. Run the backend server:
     ```bash
     ./mvnw spring-boot:run
     ```
@@ -95,28 +90,6 @@ The frontend should now be running on `http://localhost:3000`.
 ### Invitation Endpoints
 
 - **POST** `/api/invitations/{partyId}` - Invite a guest to a party
-
-## Running with Docker (Optional)
-
-1. Build the Docker images:
-    ```bash
-    docker-compose build
-    ```
-
-2. Start the services:
-    ```bash
-    docker-compose up
-    ```
-
-## Contributing
-
-To contribute to this project:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes and commit them (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
 
 ## License
 
