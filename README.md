@@ -2,22 +2,25 @@
 
 A web-based application that allows users to create parties, send invitations via email, and manage RSVPs. This project is built using Spring Boot for the backend and React.js for the frontend.
 
+
 ## Features
 
 - User registration and login.
 - Create public or private parties.
+
+![Alt text](createParty.png)
+
 - Send email invitations to guests.
-- Manage RSVPs for each party.
 - View all created parties on a dashboard.
-- Tinder-like swipe feature for public parties.
+
+![Alt text](partyList.png)
 
 ## Technologies Used
 
-- **Backend:** Java, Spring Boot, JPA, PostgreSQL
+- **Backend:** Java, Spring Boot
 - **Frontend:** React.js, JavaScript, HTML, CSS
 - **Database:** PostgreSQL
-- **Authentication:** JWT (JSON Web Tokens)
-- **Deployment:** Docker, Git
+- **Deployment:** Git
 
 ## Prerequisites
 
@@ -26,7 +29,6 @@ Before you begin, ensure you have met the following requirements:
 - Java 11 or above
 - Node.js 14.x or above
 - PostgreSQL
-- Docker (optional, for containerized deployment)
 - Git
 
 ## Installation
